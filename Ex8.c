@@ -20,7 +20,7 @@ void main()
     soma-=soma;
     for(j=1;j<=multas;j++)
     {
-      printf("Valor da multa: ");
+      printf("\tValor da multa: ");
       scanf("%d", &valor);
       soma+= valor; 
     }
@@ -28,7 +28,7 @@ void main()
   }
   else
   {
-    printf("Valor da multa: ");
+    printf("\Valor da multa: ");
     scanf("%d", &valor);
     soma=valor;
     

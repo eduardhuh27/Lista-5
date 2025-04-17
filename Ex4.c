@@ -13,11 +13,11 @@ void main()
   printf("Entre com o valor do primeiro termo da PA:");
   scanf("%d",&a1);
     
-  printf("%d",a1);
+//  printf("%d",a1);
   
-  for(i=1;i<=n-1; i++)
+  for(i=1;i<=n; i++)
   {
-   if( r>0 )
+   /*if( r>0 )
    { 
     if(termos>=a1)
       {
@@ -39,18 +39,18 @@ void main()
       }
       else
       {
-       { if(termos!=0)
-        {
+       //{ //if(termos!=0)
+        //{
           termos = termos + r;
           printf("\n%d", termos);
-        } 
+        //} 
        }
     
-    }
-
-
+    }*/
+    printf("\n%d",a1);
+    a1+=r;
 
 
   } 
 }
-}
+//}
